@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models # type: ignore
 
 
 # Logo Model: ENG4033, ENG1118, ENG4021
