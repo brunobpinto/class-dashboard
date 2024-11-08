@@ -11,7 +11,7 @@ class LogoAdmin (admin.ModelAdmin):
 admin.site.register(Logo, LogoAdmin)
 
 class ClassAdmin (admin.ModelAdmin): 
-    list_display = ['type', 'name', 'active', 'logo'] 
+    list_display = ['type', 'name', 'active'] 
     ordering = ['type', '-name'] 
     list_filter = ['active', 'type']
 
